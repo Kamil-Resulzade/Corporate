@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section1 {
+  width: 100%;
+  height: 810px;
+  background-image: url(../Images/first_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+.section1_cont {
+  width: 750px;
+  height: 100%;
+  text-align: center;
+  padding-top: 215px;
+}
+.cont_try {
+  padding-top: 30px;
+}
+.cont_try p {
+  font-size: 15px;
+}
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.newDes {
+  width: 100%;
+  height: 725px;
+}
+.newLeft {
+  height: 100%;
+  width: 850px;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  padding-top: 190px;
+  padding-left: 150px;
+}
+.firstDes {
+  color: red;
+}
+.nevo {
+  width: 350px;
+}
+.lastDes {
+  width: 400px;
+  margin-top: 20px;
+}
+.newRight {
+  display: flex;
+  height: 100%;
+  width: 667px;
+  padding-left: 100px;
+}
+.features {
+  width: 100%;
+  height: 650px;
+  background-image: url(../Images/sec3.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 135px;
+}
+.cored {
+  color: red;
+}
+.change {
+  width: 1140px;
+  height: 315px;
+  display: flex;
+  align-items: center;
+}
+.change div {
+  width: 360px;
+  text-align: center;
+}
+.respDes {
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+.leftDes {
+  height: 100%;
+  width: 705px;
+  background-image: url(../Images/crop11.jpg);
+  background-repeat: no-repeat;
+  padding-top: 95px;
+  padding-left: 75px;
+  float: left;
+}
+.rightDes {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+  padding-left: 40px;
+}
+.clients {
+  width: 100%;
+  height: 650px;
+  border: 1px solid teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Images/Group4.jpg);
+  color: white;
+}
+.upCont {
+  width: 1140px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.conTent {
+  width: 320px;
+  height: 100%;
+  text-align: center;
+}
+.conTent i {
+  font-size: 370%;
+}
+.downCont {
+  margin-top: 60px;
+  width: 975px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec6 {
+  width: 100%;
+  height: 755px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cont {
+  width: 650px;
+  height: 290px;
+  text-align: center;
+  margin-top: 105px;
+}
+.over {
+  padding-top: 95px;
+  width: 100%;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #323969;
+  color: white;
+}
+.upOver {
+  height: 125px;
+}
+.downOver {
+  height: 125px;
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  height: 42px;
+  background-color: #464c77;
+}
+.searchBox {
+  width: 250px;
+  height: 42px;
+  border: 1px solid #b8b8bf;
+  background-color: red;
+}
+.searchBox i {
+  color: white;
+  padding-left: 10px;
+  font-size: 120%;
+}
+.lastSear {
+  background-color: #f6f6f6;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  //CSS
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  //CSS
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  //CSS
+}
